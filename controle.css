@@ -1,0 +1,95 @@
+/* controle.css */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #c593f7; /* Cor de fundo da página */
+    color: white;
+}
+
+header {
+    background: #c593f7; /* Cor do cabeçalho */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+}
+
+header img {
+    max-width: 120px; /* Tamanho do logo */
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2.5em; /* Tamanho maior para o título */
+    margin: 10px 0;
+}
+
+nav {
+    background: #bc7bfd;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: #150b20;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #dbbdf8; /* Cor de fundo do conteúdo principal */
+    border-radius: 8px;
+    box-shadow:  #b671fa;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #b671fa;
+}
+
+table th {
+    background: #c593f7; /* Cor do cabeçalho da tabela */
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #b067f8; /* Cor do rodapé */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
